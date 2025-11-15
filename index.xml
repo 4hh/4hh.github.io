@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Zen demo site 在 练习本</title><link>https://4hh.github.io/</link><description>近期文章 在 The Zen demo site 在 练习本</description><generator>Hugo</generator><language>zh-cn</language><copyright>&lt;!--Creative Commons License--&gt;This site is licensed under a &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC-BY-SA 4.0&lt;/a&gt; license.&lt;!--/Creative Commons License--&gt;</copyright><lastBuildDate>Wed, 03 Aug 2022 20:48:20 +0200</lastBuildDate><atom:link href="https://4hh.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Codeforces Edu 184 ABC</title><link>https://4hh.github.io/codeforces/codeforces-edu-184/</link><pubDate>Sat, 15 Nov 2025 11:27:20 +0800</pubDate><guid>https://4hh.github.io/codeforces/codeforces-edu-184/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Zen demo site 在 练习本</title><link>https://4hh.github.io/</link><description>近期文章 在 The Zen demo site 在 练习本</description><generator>Hugo</generator><language>zh-cn</language><copyright>&lt;!--Creative Commons License--&gt;This site is licensed under a &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC-BY-SA 4.0&lt;/a&gt; license.&lt;!--/Creative Commons License--&gt;</copyright><lastBuildDate>Wed, 03 Aug 2022 20:48:20 +0200</lastBuildDate><atom:link href="https://4hh.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Educational Codeforces Round 184 ABC</title><link>https://4hh.github.io/codeforces/codeforces-edu-184/</link><pubDate>Sat, 15 Nov 2025 11:27:20 +0800</pubDate><guid>https://4hh.github.io/codeforces/codeforces-edu-184/</guid><description>&lt;ul&gt;
 &lt;li&gt;A. Alice and Bob
 &lt;ul&gt;
 &lt;li&gt;取每个点只得 1 分，也就是让 Bob 能够取得的值最多。&lt;/li&gt;
@@ -240,24 +240,6 @@
 &lt;div class="card"&gt;&lt;h3 id="card-8"&gt;Card 8&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-</description></item><item><title>Contact</title><link>https://4hh.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://4hh.github.io/contact/</guid><description>&lt;p&gt;This contact form is NOT active.&lt;/p&gt;
-&lt;p&gt;Nothing will happen if you submit it since there is no backend script setup. The Zen theme comes with a sample PHP backend.&lt;/p&gt;
-&lt;p class="error message js-hidden"&gt;要使用此功能, 必须先启用 JavaScript&lt;/p&gt;
-&lt;p class="success message hidden" data-contact-submitted&gt;已发送&lt;/p&gt;
-&lt;p class="error message hidden" data-contact-error&gt;发送信息时出现错误&lt;/p&gt;
-
-&lt;form class="contact-form hidden" data-protect="/php/contact.php" action="#" method="post" accept-charset="UTF-8"&gt;
- &lt;label for="edit-name"&gt;名称&lt;/label&gt;
- &lt;input type="text" id="edit-name" name="name" placeholder="你的名称" required autofocus&gt;
- &lt;label for="edit-mail"&gt;电子邮件地址&lt;/label&gt;
- &lt;input type="email" id="edit-mail" name="email" placeholder="你的电子邮件地址" required&gt;
- &lt;input type="text" id="edit-url" class="hidden" name="url" placeholder="如果你是人类, 跳过"&gt;
- &lt;label for="edit-subject"&gt;主题&lt;/label&gt;
- &lt;input type="text" id="edit-subject" name="subject" placeholder="简短的主题" required&gt;
- &lt;label for="edit-message"&gt;信息&lt;/label&gt;
- &lt;textarea id="edit-message" name="message" rows="5" placeholder="在此填写信息" required&gt;&lt;/textarea&gt;
- &lt;button type="submit" name="submit" disabled&gt;发送信息&lt;/button&gt;
-&lt;/form&gt;
 </description></item><item><title>Layout with grid</title><link>https://4hh.github.io/misc/layout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://4hh.github.io/misc/layout/</guid><description>&lt;p&gt;Examples of using stretch and breakout classes.&lt;/p&gt;</description></item><item><title>Math</title><link>https://4hh.github.io/misc/math/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://4hh.github.io/misc/math/</guid><description>&lt;h2 id="math-typesetting-with-katex"&gt;Math typesetting with KaTeX&lt;/h2&gt;
 &lt;p&gt;I got a contribution that added math typesetting with KaTeX.&lt;/p&gt;
 &lt;p&gt;Something you either have little clue about or really need. But math is fun and it was easy to add.&lt;/p&gt;
