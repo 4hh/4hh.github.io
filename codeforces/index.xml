@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codeforces 在 练习本</title><link>https://4hh.github.io/codeforces/</link><description>近期文章 在 Codeforces 在 练习本</description><generator>Hugo</generator><language>zh-cn</language><copyright>&lt;!--Creative Commons License--&gt;This site is licensed under a &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC-BY-SA 4.0&lt;/a&gt; license.&lt;!--/Creative Commons License--&gt;</copyright><lastBuildDate>Sat, 15 Nov 2025 11:27:20 +0800</lastBuildDate><atom:link href="https://4hh.github.io/codeforces/index.xml" rel="self" type="application/rss+xml"/><item><title>Educational Codeforces Round 184 ABC</title><link>https://4hh.github.io/codeforces/codeforces-edu-184/</link><pubDate>Sat, 15 Nov 2025 11:27:20 +0800</pubDate><guid>https://4hh.github.io/codeforces/codeforces-edu-184/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codeforces on 练习本</title><link>https://4hh.github.io/codeforces/</link><description>Recent content in Codeforces on 练习本</description><generator>Hugo</generator><language>zh-cn</language><copyright>&lt;!--Creative Commons License--&gt;This site is licensed under a &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC-BY-SA 4.0&lt;/a&gt; license.&lt;!--/Creative Commons License--&gt;</copyright><lastBuildDate>Sat, 15 Nov 2025 11:27:20 +0800</lastBuildDate><atom:link href="https://4hh.github.io/codeforces/index.xml" rel="self" type="application/rss+xml"/><item><title>Educational Codeforces Round 184 ABC</title><link>https://4hh.github.io/codeforces/codeforces-edu-184/</link><pubDate>Sat, 15 Nov 2025 11:27:20 +0800</pubDate><guid>https://4hh.github.io/codeforces/codeforces-edu-184/</guid><description>&lt;ul&gt;
 &lt;li&gt;A. Alice and Bob
 &lt;ul&gt;
 &lt;li&gt;取每个点只得 1 分，也就是让 Bob 能够取得的值最多。&lt;/li&gt;
@@ -99,7 +99,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;C. Range Operation #DP
+&lt;li&gt;C. Range Operation
 &lt;ul&gt;
 &lt;li&gt;很有意思的一道题目。&lt;/li&gt;
 &lt;li&gt;当区间 $[l, r]$ 变化的时候， $l + r$ 也会变化，很难找到单调性，也就是找不到贪心的性质。不妨从增量的角度考虑。&lt;/li&gt;
