@@ -11,8 +11,8 @@
 &lt;h1 id="problem-e-奶龙与奥利奥自动机"&gt;Problem E. 奶龙与奥利奥自动机&lt;/h1&gt;
 &lt;p&gt;组合数学题目。&lt;/p&gt;
 &lt;p&gt;设 $num_k$ 代表使用 $k$ 次操作，能够产生的非空字符串的数量。 $a_k$ 代表使用 $k$ 次操作，产生的非空字符串中，结尾是 0 的字符串的数量。 $b_k$ 代表使用 $k$ 次操作，产生的非空字符串中，结尾是 $1$ 的字符串的数量。 $c_k$ 代表使用 $k$ 次操作，产生的非空字符串中，结尾是 $01$ 的字符串的数量。&lt;/p&gt;
-&lt;p&gt;我们有这样的递推关系： $$num_k = a_k + b_k + c_k$$ ， $$a_k = c_k = num_{k - 1}$$ ， $$b_k = b_{k - 1} + c_{k - 1}$$&lt;/p&gt;
-&lt;p&gt;根据上面的关系，可以得到 $$num_k = 3num_{k - 1} - num_{k - 2}$$&lt;/p&gt;
+&lt;p&gt;我们有这样的递推关系： $num_k = a_k + b_k + c_k$ ， $a_k = c_k = num_{k - 1}$ ， $b_k = b_{k - 1} + c_{k - 1}$&lt;/p&gt;
+&lt;p&gt;根据上面的关系，可以得到 $num_k = 3num_{k - 1} - num_{k - 2}$&lt;/p&gt;
 &lt;p&gt;答案就是 $\sum_{k = 0}^{n} num_{k}$&lt;/p&gt;
 &lt;p&gt;初始状态下， $num_0 = 1$ ， $num_1 = 3$ 。其中 $num_0 = 1$ 代表的含义其实是空字符串，0 次操作只有一种情况，把它作为特殊情况处理。&lt;/p&gt;
 &lt;div data-codeblock itemscope itemtype="https://schema.org/SoftwareSourceCode" &gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;把三个点按照横坐标排序，设三个点是 $a, b, c$ ，从 $b$ 做 $x$ 轴的垂线，交线段 $a, c$ 于点 $d$ ，判断点 $d$ 和点 $b$ 的 Y 坐标的大小即可。&lt;/p&gt;
 &lt;h1 id="problem-h-小苯的序列染色"&gt;Problem H. 小苯的序列染色&lt;/h1&gt;
 &lt;p&gt;每个点可能向左扩展，也可能向右扩展，也就是每个点最多对应 2 个区间。一共有 $2n$ 个区间。问题转化成从这些区间中选出最少的区间，使得这些区间能够覆盖 $[1, n]$&lt;/p&gt;
-&lt;p&gt;这可以贪心：先按照区间的左端点从小到大排序。维护当前能够覆盖的最远距离 $cur\_end$ ，如果当前区间的左端点 $l \le cur\_end + 1$ , 说明当前区间能够接上之前一段。那么从能够接上的这些区间中，选择一个右端点 $r$ 最大的。如果找不到能够接上的区间，直接返回无解。&lt;/p&gt;
+&lt;p&gt;这可以贪心：先按照区间的左端点从小到大排序。维护当前能够覆盖的最远距离 &lt;code&gt;cur_end&lt;/code&gt;，如果当前区间的左端点 &lt;code&gt;l &amp;lt;= cur_end + 1&lt;/code&gt;, 说明当前区间能够接上之前一段。那么从能够接上的这些区间中，选择一个右端点 $r$ 最大的。如果找不到能够接上的区间，直接返回无解。&lt;/p&gt;
 &lt;div data-codeblock itemscope itemtype="https://schema.org/SoftwareSourceCode" &gt;
 &lt;button data-codebutton class="codebutton" title="Copy code"&gt;&lt;span&gt;⧉&lt;/span&gt;&lt;/button&gt;
 &lt;meta itemprop="codeSampleType" content="snippet"&gt;
